@@ -1,9 +1,10 @@
+import Card from "./components/Card"
 
 function App() {
 
   return (
-    <div>
-      <h1>Hello world</h1>
+    <div className="flex min-h-screen items-center justify-center bg-[#090b1a]">
+      <Card />
     </div>
   )
 }
